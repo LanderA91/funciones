@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	height: 60vh;
+	gap: 120px;
+	width: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.color{
+	display: flex;
+	align-items: center;
+	border: 2px solid rgb(230, 6, 6);
+	border-radius: 5px;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.color_click{
+	color: blue;
+	background-color: green;
+	font-weight: bold;
+}
